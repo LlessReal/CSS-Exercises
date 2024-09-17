@@ -1,0 +1,47 @@
+
+div {
+    background-color: red;
+    color:white;
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+}
+.oddnumber {
+    background-color: lightcoral;
+    font-family: "Verdana","DejaVu Sans",sans-serif;
+
+}
+#bigblue {
+    color:blue;
+    font-size: 36px;
+}
+
+.anotherclass {
+    font-size: 24px;
+}
+
+#biggreen {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: lightgreen;
+}
+
+.avatar.proportions { /*Chaining 2 classes*/
+    width: 300px;
+    height: auto;
+}
+.avatar.distorted {
+    width: 200px;
+    height: 400px;
+}
+.avatar {
+    width: 400px;
+    height: auto;
+}
+
+div p {
+    font-size: 20px;
+    text-align: center;
+    background-color: yellow;
+    color: red;
+}
