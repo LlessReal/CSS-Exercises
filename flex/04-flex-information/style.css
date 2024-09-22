@@ -10,6 +10,17 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+}
+
+div.evenup {
+  display: flex;
+  margin: 40px;
+  width: auto;
+}
+div.evenup div {
+  padding: 10px;
+  text-align: center;
 }
 
 /* do not edit this footer */
