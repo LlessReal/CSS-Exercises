@@ -26,7 +26,7 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
-  margin: 20px;
+  margin: 20px; 
 }
 
 .content {
@@ -34,7 +34,9 @@ input {
   flex: 1;
   align-items: center;
   flex-direction: column;
+  justify-content: center;
 }
+
 
 li a {
   text-decoration: none;
@@ -44,9 +46,9 @@ li a {
 
 .footer, .header {
   display: flex;
-  align-items: center;
+  align-items: center; 
   justify-content: space-between;
-  width: 100%;
+  width: 100%; 
 }
 
 ul { 
@@ -61,3 +63,23 @@ ul {
   position: fixed;
   bottom: 0;
 }
+
+body {
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+}
+
+img {
+  width: 600px;
+}
+
+button {
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 8px;
+  background: #eee;
+  padding: 8px 16px;
+}
+
